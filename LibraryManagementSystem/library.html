@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library Management System</title>
+    <link rel="stylesheet" href="library.css">
+</head>
+<body>
+    <header>
+        <h1>MACS LIBRARY MANAGEMENT SYSTEM</h1>
+    </header>
+    <h1>Welcome To An Amazing Adventure Of Books.</h1>
+    <main>
+        <section id="register-section">
+            <h2>REGISTER</h2>
+            <form id="register-form">
+                <label for="name">Name:</label>
+                <input type="text" id="register-name" name="name" placeholder="Enter your name">
+                <br>
+                <label for="id">ID:</label>
+                <input type="text" id="register-id" name="id" placeholder="Enter an ID">
+                <br>
+                <label for="password">Password:</label>
+                <input type="password" id="register-password" name="password" placeholder="Input a password">
+                <br>
+                <button type="submit">Register</button>
+            </form>
+<!-- 
+            <section id="user-section" style="display: none;">
+                <h2>LIST OF USERS</h2>
+                <ul id="user-list">
+                    user list will be generated here
+                </ul> -->
+            </section>
+        </section>
+
+        <section id="login-section">
+            <h2>LOGIN</h2>
+            <form id="login-form">
+                <label for="id">ID:</label>
+                <input type="text" id="login-id" name="id" placeholder="Enter your ID">
+                <label for="password">Password:</label>
+                <input type="password" id="login-password" name="password" placeholder="Password">
+                <button type="submit">Login</button>
+            </form>
+        </section>
+
+        <section id="borrow-section">
+            <h2>BORROW BOOK</h2>
+            <form id="borrow-book-form">
+                <label for="isbn">ISBN:</label>
+                <input type="text" id="isbn" name="isbn" placeholder="ISBN">
+                <button type="submit">Borrow Book</button>
+            </form>
+        </section>
+
+        <section id="return-section">
+            <h2>RETURN BOOK</h2>
+            <form id="return-book-form">
+                <label for="isbn">Enter ISBN of book to return:</label>
+                <input type="text" id="return-isbn" name="isbn" placeholder="ISBN">
+                <button type="submit">Return Book</button>
+              </form>
+        </section>
+
+        <section id="add-section">
+            <h2>ADD A BOOK</h2>
+            <ul id="user-list">
+                <!-- user list will be generated here -->
+            </ul>
+            <form id="add-book-form">
+                <label for="title">Title:</label>
+                <input type="text" id="title" name="title" placeholder="Book tile">
+                <label for="author">Author:</label>
+                <input type="text" id="author" name="author" placeholder="Author">
+                <label for="isbn">ISBN:</label>
+                <input type="text" id="add-isbn" name="isbn" placeholder="ISBN">
+                <button type="submit">Add Book</button>
+            </form>
+        </section>
+
+        <section id="user-section">
+            <h2>LIBRARY BOOK LIST</h2>
+            <ul id="book-list">
+              <!-- Default list of books will be generated here -->
+            </ul>
+        </section>
+    </main>
+    <script src="library.js"></script>
+</body>
+</html> n 
