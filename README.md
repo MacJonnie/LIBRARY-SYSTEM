@@ -8,7 +8,7 @@ Technologies:
 
 Features:
 - Members can register to the library by providing their Name, ID and Password.
-- Members login with thier ID and Password.
+- Members can login with thier ID and Password after registering.
 - All available books are displayed on the library interface.
 - Only logged in members can borrow or return a book using the ISBN.
 - Only logged in members can add a book to the library list and this will be displayed on the list of books available on the interface.
